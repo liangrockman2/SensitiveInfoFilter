@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SensitiveInfoFilter:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SensitiveInfoFilter.war">
+      <element id="artifact" artifact-name="SensitiveInfoFilter:war exploded" />
+    </root>
+  </artifact>
+</component>
