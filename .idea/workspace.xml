@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2423accc-8a79-4799-ba23-2e534925c355" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/inhome/sif/SensitiveInfoFilterServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/inhome/sif/SensitiveInfoFilterServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SensitiveInfoFilter_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SensitiveInfoFilter_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientConnectionRelease.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="b551c291-047c-4c93-8000-9dd66eeb1b91" name="Rejected commit: Default" comment="none">
@@ -12,7 +11,7 @@
     <ignored path="SensitiveInfoFilter.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375637321832" ignored="false" />
-    <file path="/Dummy.txt" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375930247483" ignored="false" />
+    <file path="/Dummy.txt" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375930265059" ignored="false" />
     <file path="/fragment.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375854744691" ignored="false" />
     <file path="/a.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375638901926" ignored="false" />
     <file path="/index.jsp" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375763416135" ignored="false" />
@@ -831,7 +830,11 @@
       <created>1375854140295</created>
       <updated>1375854140295</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="none">
+      <created>1375930268135</created>
+      <updated>1375930268135</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
