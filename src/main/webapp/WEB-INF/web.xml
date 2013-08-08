@@ -12,4 +12,8 @@
         <servlet-name>SensitiveInfoFilterServlet</servlet-name>
         <url-pattern>/sensitiveInfoFilter</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SensitiveInfoFilterServlet</servlet-name>
+        <url-pattern>/b/*</url-pattern>
+    </servlet-mapping>
 </web-app>
