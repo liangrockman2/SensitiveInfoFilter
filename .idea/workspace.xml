@@ -3,17 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="2423accc-8a79-4799-ba23-2e534925c355" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/inhome/sif/SensitiveInfoFilterServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/inhome/sif/SensitiveInfoFilterServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/s_code.js" afterPath="$PROJECT_DIR$/src/main/webapp/s_code.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/sc_detail.html" afterPath="$PROJECT_DIR$/src/main/webapp/sc_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/sc_home.html" afterPath="$PROJECT_DIR$/src/main/webapp/sc_home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/sc_list.html" afterPath="$PROJECT_DIR$/src/main/webapp/sc_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SensitiveInfoFilter_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SensitiveInfoFilter_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="b551c291-047c-4c93-8000-9dd66eeb1b91" name="Rejected commit: Default" comment="none">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/s_code.js" afterPath="$PROJECT_DIR$/src/main/webapp/s_code.js" />
     </list>
     <ignored path="SensitiveInfoFilter.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375637321832" ignored="false" />
-    <file path="/Dummy.txt" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375853028108" ignored="false" />
-    <file path="/fragment.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375753724688" ignored="false" />
+    <file path="/Dummy.txt" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375930247483" ignored="false" />
+    <file path="/fragment.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375854744691" ignored="false" />
     <file path="/a.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375638901926" ignored="false" />
     <file path="/index.jsp" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375763416135" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/WebTest/.idea/workspace.xml" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375673330866" ignored="false" />
@@ -25,11 +25,14 @@
     <file path="/Servlet2.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375753872058" ignored="false" />
     <file path="/web.xml" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375754084169" ignored="false" />
     <file path="/.gitignore" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375774632058" ignored="false" />
-    <file path="/SensitiveInfoFilterServlet.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375849098557" ignored="false" />
+    <file path="/SensitiveInfoFilterServlet.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375860610250" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/HexStringToBytes/src/Main.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375847858109" ignored="false" />
     <file path="/*.regexp" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375841325490" ignored="false" />
     <file path="/Main.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375847628391" ignored="false" />
     <file path="/sc_detail.html" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375850581753" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/HttpClientExample/src/ClientConnectionRelease.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375854597134" ignored="false" />
+    <file path="/ClientConnectionRelease.java" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375863903008" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/webapp/s_code.js" changelist="2423accc-8a79-4799-ba23-2e534925c355" time="1375861832340" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,19 +115,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SensitiveInfoFilterServlet.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/inhome/sif/SensitiveInfoFilterServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="12" selection-start="1293" selection-end="1293" vertical-scroll-proportion="1.1693877">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
             <state />
           </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
             <state />
           </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.965517">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,16 +147,7 @@
       <file leaf-file-name="SensitiveInfoFilter.iml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SensitiveInfoFilter.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="35" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sc_list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/sc_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="55" selection-start="1083" selection-end="1083" vertical-scroll-proportion="-0.6785714">
+            <state line="7" column="22" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,13 +156,22 @@
       <file leaf-file-name="s_code.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/s_code.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="32" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0">
+            <state line="23" column="39" selection-start="944" selection-end="944" vertical-scroll-proportion="-15.96">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ClientConnectionRelease.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientConnectionRelease.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="16" selection-start="2126" selection-end="2191" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0">
@@ -166,19 +180,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sc_home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/sc_home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="55" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-0.6785714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="64" selection-end="64" vertical-scroll-proportion="-2.0357144">
+            <state line="3" column="7" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,7 +192,7 @@
       <file leaf-file-name="sc_detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/sc_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="55" selection-start="1046" selection-end="1087" vertical-scroll-proportion="-0.6785714">
+            <state line="34" column="55" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -196,7 +201,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="56" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
+            <state line="8" column="19" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -222,22 +227,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/profiles.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/inhome/sif/Servlet2.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/inhome/sif/Servlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/welcome.jsp" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/inhome/sif/SensitiveInfoFilterServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/sc_detail.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/sc_home.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/sc_list.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/s_code.js" />
         <option value="$PROJECT_DIR$/SensitiveInfoFilter.iml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/sc_detail.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/inhome/sif/SensitiveInfoFilterServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/s_code.js" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientConnectionRelease.java" />
       </list>
     </option>
   </component>
@@ -271,7 +276,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="commons-httpclient:commons-httpclient:3.1" />
+          <option name="myItemId" value="org.apache.httpcomponents:httpclient:4.2.5" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -369,15 +374,9 @@
               <option name="myItemId" value="SensitiveInfoFilter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SensitiveInfoFilter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SensitiveInfoFilter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -387,17 +386,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SensitiveInfoFilter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -820,7 +815,23 @@
       <created>1375853028934</created>
       <updated>1375853028934</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="none">
+      <created>1375853057818</created>
+      <updated>1375853057818</updated>
+    </task>
+    <task id="LOCAL-00011" summary="none">
+      <created>1375854105148</created>
+      <updated>1375854105148</updated>
+    </task>
+    <task id="LOCAL-00012" summary="none">
+      <created>1375854110264</created>
+      <updated>1375854110264</updated>
+    </task>
+    <task id="LOCAL-00013" summary="none">
+      <created>1375854140295</created>
+      <updated>1375854140295</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -847,12 +858,12 @@
     <frame x="1" y="49" width="1918" height="1030" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5537383" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31892523" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328877" sideWeight="0.28082192" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994652" sideWeight="0.67009133" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.67009133" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41939253" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48598132" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36448598" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24812834" sideWeight="0.2865297" order="3" side_tool="true" content_ui="tabs" />
@@ -860,13 +871,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49649534" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994652" sideWeight="0.67009133" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3362162" sideWeight="0.22897196" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3362162" sideWeight="0.5140187" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827103" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.67009133" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26864865" sideWeight="0.44626167" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972972" sideWeight="0.67009133" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26864865" sideWeight="0.68107474" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36448598" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3362162" sideWeight="0.2161215" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26054054" sideWeight="0.68107474" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43808413" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32673797" sideWeight="0.39497718" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -954,93 +965,91 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/inhome/sif/SensitiveInfoFilterServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="77" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/sc_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="55" selection-start="1083" selection-end="1083" vertical-scroll-proportion="-0.6785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/sc_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="55" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-0.6785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/sc_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="55" selection-start="1046" selection-end="1087" vertical-scroll-proportion="-0.6785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/s_code.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="32" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0">
+        <state line="32" column="20" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
+        <state line="32" column="20" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SensitiveInfoFilter.iml">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/sc_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="55" selection-start="857" selection-end="857" vertical-scroll-proportion="-0.6785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/sc_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="55" selection-start="853" selection-end="853" vertical-scroll-proportion="-0.6785714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="64" selection-end="64" vertical-scroll-proportion="-2.0357144">
+        <state line="3" column="7" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/sc_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="55" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SensitiveInfoFilter.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientConnectionRelease.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="16" selection-start="2126" selection-end="2191" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1052,26 +1061,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.965517">
+        <state line="8" column="19" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/s_code.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0">
+        <state line="23" column="39" selection-start="944" selection-end="944" vertical-scroll-proportion="-15.96">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/inhome/sif/SensitiveInfoFilterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="12" selection-start="1293" selection-end="1293" vertical-scroll-proportion="1.1693877">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
