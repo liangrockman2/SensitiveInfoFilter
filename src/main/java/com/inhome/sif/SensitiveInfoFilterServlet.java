@@ -20,6 +20,7 @@ import java.util.Enumeration;
  */
 public class SensitiveInfoFilterServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //doGet
         doGet(request, response);
     }
 
