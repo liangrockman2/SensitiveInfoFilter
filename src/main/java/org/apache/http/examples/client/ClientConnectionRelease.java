@@ -46,7 +46,8 @@ public class ClientConnectionRelease {
         HttpClient httpclient = new DefaultHttpClient();
         try {
             HttpGet httpget = new HttpGet("http://hc.apache.org/index.html");
-            // Test Test  Referer 2
+
+            // Test Test  Referer 33
             httpget.addHeader("Referer", "http://liangrockman.gicp.net:8080/sc_home.html?abc=bbc");
 
             // Execute HTTP request
