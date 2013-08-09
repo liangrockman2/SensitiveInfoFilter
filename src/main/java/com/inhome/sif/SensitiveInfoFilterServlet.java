@@ -35,8 +35,8 @@ public class SensitiveInfoFilterServlet extends HttpServlet {
         ArrayList cookieList = new ArrayList();
         HttpServletRequest rep = request;
 
-        Cookie[] e = rep.getCookies();
-        for(Cookie s : e){
+        Cookie[] cookies = rep.getCookies();
+        for(Cookie s : cookies){
             String cookieValue = (String)s.getValue();
             cookieList.add(cookieValue);
             out.print(cookieValue);
