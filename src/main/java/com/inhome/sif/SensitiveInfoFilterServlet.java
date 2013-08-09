@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.Enumeration;
 
 /**
@@ -20,7 +21,6 @@ import java.util.Enumeration;
  */
 public class SensitiveInfoFilterServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //doGet
         doGet(request, response);
     }
 
@@ -30,6 +30,32 @@ public class SensitiveInfoFilterServlet extends HttpServlet {
              String paramName = (String)e.nextElement();
              out.println("<div>" + paramName+ ":" + request.getParameter(paramName) + "</div>");
         }
+
+        String referer = request.getHeader("Referer");
+        ArrayList cookieList = new ArrayList();
+        HttpServletRequest rep = request;
+
+        Cookie[] e = rep.getCookies();
+        for(Cookie s : e){
+            String cookieValue = (String)s.getValue();
+            cookieList.add(cookieValue);
+            out.print(cookieValue);
+
+        }
+
+        /*
+        ArrayList cookieList2 = new ArrayList();
+        for(int i = 0; i < e.length; i++){
+
+
+        }
+               */
+
+       /* String[] a = {"1","2"};
+        for(String s : a){
+
+        }           */
+
 
         try {
             ClientConnectionRelease.main(new String[]{});
