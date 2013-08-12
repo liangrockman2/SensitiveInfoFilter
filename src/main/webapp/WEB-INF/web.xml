@@ -7,6 +7,14 @@
     <servlet>
         <servlet-name>SensitiveInfoFilterServlet</servlet-name>
         <servlet-class>com.inhome.sif.SensitiveInfoFilterServlet</servlet-class>
+        <init-param>
+            <param-name>trackingServer</param-name>
+            <param-value>HPS-DEV:8080/request-printer</param-value>
+        </init-param>
+    </servlet>
+    <servlet>
+        <servlet-name>RequestPrinterServlet</servlet-name>
+        <servlet-class>com.inhome.sif.RequestPrinterServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SensitiveInfoFilterServlet</servlet-name>
@@ -15,5 +23,9 @@
     <servlet-mapping>
         <servlet-name>SensitiveInfoFilterServlet</servlet-name>
         <url-pattern>/b/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RequestPrinterServlet</servlet-name>
+        <url-pattern>/request-printer/*</url-pattern>
     </servlet-mapping>
 </web-app>

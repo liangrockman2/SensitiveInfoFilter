@@ -21,7 +21,7 @@ changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
 s.visitorNamespace="ubsextern"
 //s.trackingServer="ubsextern.d3.sc.omtrdc.net"
-s.trackingServer="liangrockman.gicp.net:8080"
+s.trackingServer="hps-dev:8080"
 
 s.usePlugins = true;
 

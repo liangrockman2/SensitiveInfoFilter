@@ -3,6 +3,7 @@ package com.inhome.sif;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
@@ -24,8 +25,42 @@ class FilterList {
     List<String> list = new ArrayList<String>();
 
     public FilterList(){
-        list.add("a=b");
 
+        String filePath = FilterList.class.getClassLoader().getResource("filterList.txt").getFile();
+        File file = new File( filePath );
+
+        if( file.exists() ){
+            try {
+                InputStream inputStream = null;
+                InputStreamReader isr = null;
+                BufferedReader bufferedReader = null ;
+
+                try {
+                    inputStream = new FileInputStream(file);
+                    isr = new InputStreamReader(inputStream, "UTF-8");
+                    bufferedReader = new BufferedReader(isr);
+
+                    String line = bufferedReader.readLine();
+                    while(line != null){
+                        this.list.add(line);
+                        line = bufferedReader.readLine();
+                    }
+
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                } finally {
+                    if(bufferedReader != null) bufferedReader.close();
+                    if(isr != null) isr.close();
+                    if(inputStream != null) inputStream.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
+        }
+
+        /*
         InputStream is = null;
         try {
             is = new FileInputStream("D:/ServletDemo.txt");
@@ -41,6 +76,6 @@ class FilterList {
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
-
+        */
     }
 }
