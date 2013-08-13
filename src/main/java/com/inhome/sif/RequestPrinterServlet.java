@@ -5,6 +5,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+import java.util.Date;
 import java.util.Enumeration;
 
 /**
@@ -20,16 +23,25 @@ public class RequestPrinterServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("---------------Request Printer------------------");
-        System.out.println("URI:"+request.getRequestURI());
-        System.out.println("QUERY:"+request.getQueryString());
+        RequestPrinterServlet.print(request, "Sensitive Request");
+    }
+
+    public static void print(HttpServletRequest request, String title){
+        System.out.println("---------------"+title+"------------------");
+        System.out.println("Time: "+ new Date().toString() );
+        System.out.println("URI: "+request.getRequestURI());
+        try {
+            System.out.println("QUERY: "+ URLDecoder.decode(request.getQueryString(), "UTF-8") );
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
 
         for(Enumeration headerNames = request.getHeaderNames();  headerNames.hasMoreElements(); ){
             String header = (String)headerNames.nextElement();
             String value = request.getHeader(header);
-            System.out.println("(header)"+header+":"+value);
+            System.out.println("(header)"+header+": "+value);
         }
 
-        System.out.print("------------------------------------------------");
+        System.out.println("------------------------------------------------");
     }
 }
