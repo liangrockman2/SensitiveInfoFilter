@@ -37,9 +37,10 @@ public class SensitiveInfoFilterServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String trackingServer = this.getInitParameter("trackingServer");
 
+        RequestPrinterServlet.print(request, "Original Request");
+
         String uri = request.getRequestURI();
         String queryString = URLDecoder.decode(request.getQueryString(), "UTF-8");
-        System.out.println("QUERY(Decode)"+queryString);
         queryString = filterQueryCookieString(queryString, "&");
         queryString = URLEncoder.encode(queryString, "UTF-8");
 
