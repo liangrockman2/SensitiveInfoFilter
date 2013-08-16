@@ -16,6 +16,7 @@ import java.util.Enumeration;
  * Date: 13-8-11
  * Time: 上午10:12
  * To change this template use File | Settings | File Templates.
+ * Test by Jaman
  */
 public class RequestPrinterServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -36,6 +37,7 @@ public class RequestPrinterServlet extends HttpServlet {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
 
+        //
         for(Enumeration headerNames = request.getHeaderNames();  headerNames.hasMoreElements(); ){
             String header = (String)headerNames.nextElement();
             String value = request.getHeader(header);
