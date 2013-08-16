@@ -10,7 +10,6 @@
         <init-param>
             <param-name>trackingServer</param-name>
             <param-value>taichi.d1.sc.omtrdc.net</param-value>
-            <param-value>taichi.d1.sc.omtrdc.net2</param-value>
         </init-param>
     </servlet>
     <servlet>
