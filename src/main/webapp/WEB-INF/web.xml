@@ -9,7 +9,7 @@
         <servlet-class>com.inhome.sif.SensitiveInfoFilterServlet</servlet-class>
         <init-param>
             <param-name>trackingServer</param-name>
-            <param-value>HPS-DEV:8080/request-printer</param-value>
+            <param-value>taichi.d1.sc.omtrdc.net</param-value>
         </init-param>
     </servlet>
     <servlet>

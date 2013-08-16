@@ -23,7 +23,7 @@ s.linkTrackEvents="None"
  changes to how your visitor data is collected.  Changes should only be
  made when instructed to do so by your account manager.*/
 s.visitorNamespace="taichi"
-s.trackingServer="taichi.d1.sc.omtrdc.net"
+s.trackingServer="localhost:8080"
 
 /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
 var s_code='',s_objectID;function s_gi(un,pg,ss){var c="s.version='H.26.1';s.an=s_an;s.logDebug=function(m){var s=this,tcf=new Function('var e;try{console.log(\"'+s.rep(s.rep(s.rep(m,\"\\\\\",\"\\\\"
