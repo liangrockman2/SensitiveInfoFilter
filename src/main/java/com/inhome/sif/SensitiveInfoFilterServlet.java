@@ -89,6 +89,8 @@ public class SensitiveInfoFilterServlet extends HttpServlet {
                         headerValue = parts[0]+"?"+parts[1];
                     }
                 }
+            } else if( "host".equalsIgnoreCase( headerName ) ){
+                continue;
             }
            // System.out.println(headerName + ":" + headerValue);
             mapHeader.put(headerName,headerValue);
